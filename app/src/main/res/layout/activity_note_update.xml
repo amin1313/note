@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Note_update">
+
+    <EditText
+        android:id="@+id/et_set_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="update note" />
+
+    <Button
+        android:id="@+id/btn_update_note_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_set_note"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape2"
+        android:text="update"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
